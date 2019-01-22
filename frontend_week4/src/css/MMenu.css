@@ -1,0 +1,45 @@
+@import "~antd/dist/antd.css";
+
+body {
+  background-color: #f0f2f5;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aaa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-button {
+  width: 133px;
+  height: 48px;
+  border: none;
+  /* margin: 16px 24px 16px 0; */
+  cursor: pointer;
+  z-index: 2;
+  background: url("../lib/street.png");
+  margin: 0;
+}
+
+.user {
+  color: lightblue;
+}
+
+.login{
+  display: flex;
+}

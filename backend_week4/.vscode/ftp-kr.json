@@ -1,0 +1,16 @@
+{
+    "host": "143.248.140.106",
+    "username": "root",
+    "remotePath": "/root/week4/backend_1",
+    "protocol": "sftp",
+    "port": 622,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        "node_modules",
+        ".git",
+        "/.vscode"
+    ]
+}

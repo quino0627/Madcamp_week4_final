@@ -1,0 +1,20 @@
+.notice__column {
+  padding: 10px 23vw;
+}
+
+.notice__column1 {
+  padding: 40px 23vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.notice__submit{
+  display: flex;
+  flex-direction: column
+}
+
+.ant-table-column-has-actions{
+  word-wrap: break-word;
+  word-break: break-all;
+}

@@ -1,0 +1,28 @@
+.review__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 10px 23vw;
+}
+
+.review__row1 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 23vw;
+}
+
+.review__submit {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-card{
+  width: auto !important;
+}
+
+.input__title{
+  margin-bottom: 20px;
+}

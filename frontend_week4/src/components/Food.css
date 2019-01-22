@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo");
+.food__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+  word-wrap: break-word;
+  word-break: break-all;
+  flex-wrap: wrap;
+}
+
+.food__element {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.menu__img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.school__buttons {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+}
+
+.school__button {
+  width: 20vh;
+  height: 20vh;
+}
+
+.today__date {
+  margin-top: 50px;
+}
+
+.top__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
+}
+.sch__img {
+  max-width: 100%;
+}
